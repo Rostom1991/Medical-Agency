@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Gabarito", sans-serif;
+}
+.box-shadow-apply {
+  box-shadow: 0px 1px 10px 1px rgb(0, 0, 0, 0.1);
+}
+
+/* .job-title{
+  content: ;
+
+} */

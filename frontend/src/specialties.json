@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Pathological Anatomy",
+    "url": "../../public/assets/anatomyURL.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Cardiology",
+    "url": "../../public/assets/cardiologyURL.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Gastroenterology",
+    "url": "../../public/assets/gastroURL.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Nurcing",
+    "url": "../../public/assets/nurcingURL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Alternative Medicine",
+    "url": "../../public/assets/alternativeMedicine.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Internal Medicine",
+    "url": "../../public/assets/internalMedicineURL.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Neurology",
+    "url": "../../public/assets/neurologyURL.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Pediatrics Neonatology",
+    "url": "../../public/assets/pediatricsURL.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Psychiatry",
+    "url": "../../public/assets/psychiatryURL.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Stomatology",
+    "url": "../../public/assets/stomatologyURL.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Anesthesia Resuscitation",
+    "url": "../../public/assets/anesthesiaURL.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Dermatology",
+    "url": "../../public/assets/dermatologyURL.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Geriatrics",
+    "url": "../../public/assets/geriatricsURL.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Physiotherapy",
+    "url": "../../public/assets/physiotherapyURL.png"
+  },
+  {
+    "id": 15,
+    "title": "Physists Rehabilitation",
+    "url": "../../public/assets/rehabURL.png"
+  },
+  {
+    "id": 16,
+    "title": "Oncology",
+    "url": "../../public/assets/oncologyURL.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Pharmacy",
+    "url": "../../public/assets/pharmacyURL.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Radiology",
+    "url": "../../public/assets/radiologyURL.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Telemedicine",
+    "url": "../../public/assets/telemedicineURL.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Biology",
+    "url": "../../public/assets/biologyURL.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Endocrinology",
+    "url": "../../public/assets/endocrinologyURL.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Obstetric Gynecology",
+    "url": "../../public/assets/gynecologyURL.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Emergency Medicine",
+    "url": "../../public/assets/emergencyURL.jpg"
+  },
+  {
+    "id": 24,
+    "title": "General Medicine",
+    "url": "../../public/assets/generalMedicineURL.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Nephrology",
+    "url": "../../public/assets/nephrologyURL.jpeg"
+  },
+  {
+    "id": 26,
+    "title": "Ophthalmology",
+    "url": "../../public/assets/ophtalmologyURL.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Pulmonology",
+    "url": "../../public/assets/pulmonologyURL.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Replacements",
+    "url": "../../public/assets/replacementsURL.jpg"
+  }
+]

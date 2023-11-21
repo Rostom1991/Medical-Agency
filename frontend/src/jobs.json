@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "title": "Cardiologist",
+    "location": "Berlin, Germany",
+    "position": "Full Time",
+    "salary": "€90,000€ - €120,000",
+    "specialty": "Cardiology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Cardiology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Dermatology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Nurse",
+    "location": "Stuttgart, Germany",
+    "position": "Full Time",
+    "salary": "€25,000 - €35,000",
+    "specialty": "Nurcing",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Nurcing to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Dermatology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Surgeon",
+    "location": "Munich, Germany",
+    "position": "Full Time",
+    "salary": "€95,000 - €160,000",
+    "specialty": "Internal Medicine",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Internal Medicine to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Dermatology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Physiotherapist",
+    "location": "Cologne, Germany",
+    "position": "Full Time",
+    "salary": "€55,000 - €70,000",
+    "specialty": "Physiotherapy",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Physiotherapy to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Dermatology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Ophtalmologist",
+    "location": "Frankfurt, Germany",
+    "position": "Full Time",
+    "salary": "€75,000 - €85,000",
+    "specialty": "Ophtamology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Ophtalmology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Dermatology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Oncologist",
+    "location": "Leipzig, Germany",
+    "position": "Full Time",
+    "salary": "€65,000 - €70,000",
+    "specialty": "Oncology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Oncology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Oncology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Dermatologist",
+    "location": "Dortmund, Germany",
+    "position": "Full Time",
+    "salary": "€90,000 - €100,000",
+    "specialty": "Dermatology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Dermatology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Dermatology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Psychiatrist",
+    "location": "Hamburg, Germany",
+    "position": "Full Time",
+    "salary": "€70,000 - €90,000",
+    "specialty": "Psychiatry",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Psychiatry to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Psychiatry",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Neurologist",
+    "location": "Hanover, Germany",
+    "position": "Full Time",
+    "salary": "€90,000 - €100,000",
+    "specialty": "Neurology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Neurology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Cardiology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Biologist",
+    "location": "Düsseldorf, Germany",
+    "position": "Full Time",
+    "salary": "€90,000 - €100,000",
+    "specialty": "Biology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Biology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Biology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Pulmonologist",
+    "location": "Dresden, Germany",
+    "position": "Full Time",
+    "salary": "€90,000 - €100,000",
+    "specialty": "Pulmonology",
+    "description": "We are seeking a skilled Medical Doctor with expertise in Pulmonology to join our team...",
+    "requirements": [
+      "Medical degree and valid license",
+      "Board certification in Pulmonology",
+      "X years of experience in a similar role",
+      "Strong communication and interpersonal skills"
+    ],
+    "responsibilities": [
+      "Conduct patient consultations and assessments",
+      "Order and interpret diagnostic tests",
+      "Develop treatment plans and provide ongoing care",
+      "Collaborate with other healthcare professionals"
+    ],
+    "benefits": [
+      "Health insurance",
+      "401(k) retirement plan",
+      "Paid time off",
+      "Continuing education opportunities"
+    ],
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567"
+    }
+  }
+]
