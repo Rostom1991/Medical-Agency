@@ -27,7 +27,7 @@ function Apply() {
     if (connected) {
       setDisable(true);
       await axios
-        .post("http://localhost:5000/apply", user, {
+        .post("https://medical-agency-api.vercel.app/apply", user, {
           headers: {
             "Content-Type": "multipart/form-data",
           },

@@ -21,7 +21,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/login", user)
+      .post("https://medical-agency-api.vercel.app/login", user)
       .then((response) => {
         console.log(response.data);
         setError(false);

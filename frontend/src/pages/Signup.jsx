@@ -29,7 +29,7 @@ function Signup() {
     e.preventDefault();
     password == confirmPassword
       ? axios
-          .post("http://localhost:5000/signup", user)
+          .post("https://medical-agency-api.vercel.app/signup", user)
           .then((response) => {
             setError(false);
             dispatch(login(response.data.user));
