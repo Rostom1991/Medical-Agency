@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
-  email: JSON.parse(localStorage.getItem("user"))?.email || "email",
+  email: JSON.parse(localStorage.getItem("user"))?.email || null,
   connected: localStorage.getItem("connected") || false,
 };
 
