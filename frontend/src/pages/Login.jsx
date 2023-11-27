@@ -83,7 +83,7 @@ function Login() {
               Email:
             </label>
             <input
-              className="outline-none bg-purple-100 focus:shadow-lg p-2 text-sm border-[2px] rounded border-cyan-200 focus:border-cyan-300 caret-blue-400 pl-2 text-gray-500 w-1/2"
+              className="outline-none bg-purple-100 focus:shadow-lg p-2 text-sm border-[2px] rounded border-cyan-200 focus:border-cyan-300 caret-blue-400 pl-2 text-gray-500 lg:w-1/2"
               type="text"
               placeholder="Your Email"
               onChange={(e) => setEmail(e.target.value)}
@@ -96,7 +96,7 @@ function Login() {
               Password:
             </label>
             <input
-              className="text-sm p-2 outline-none bg-purple-100 focus:shadow-lg pl-2 border-[2px] rounded border-cyan-200 focus:border-cyan-300 caret-blue-400  text-gray-500 w-1/2"
+              className="text-sm p-2 outline-none bg-purple-100 focus:shadow-lg pl-2 border-[2px] rounded border-cyan-200 focus:border-cyan-300 caret-blue-400  text-gray-500 lg:w-1/2"
               type="password"
               placeholder="Your Password"
               onChange={(e) => setPassword(e.target.value)}
@@ -116,12 +116,12 @@ function Login() {
           <div className="flex justify-center gap-4">
             <button
               onClick={handleSubmit}
-              className="bg-purple-900 lg:text-[1rem] text-sm hover:shadow-lg hover:bg-purple-700 transition-colors duration-500 ease-linear rounded lg:px-12 px-10 py-2 text-white">
+              className="bg-purple-900 lg:text-[1rem] text-sm hover:shadow-lg hover:bg-purple-700 transition-colors duration-500 ease-linear rounded lg:px-12 px-6 py-2 text-white">
               LOGIN
             </button>
             <button
               onClick={goToSignUp}
-              className="bg-white border-2  border-purple-950 hover:bg-black hover:text-white transition-colors duration-500 ease-linear rounded text-sm lg:text-[1rem] px-8 lg:px-10 py-2 text-purple-950">
+              className="bg-white border-2  border-purple-950 hover:bg-black hover:text-white transition-colors duration-500 ease-linear rounded text-sm lg:text-[1rem] px-6 lg:px-10 py-2 text-purple-950">
               SIGN UP
             </button>
           </div>

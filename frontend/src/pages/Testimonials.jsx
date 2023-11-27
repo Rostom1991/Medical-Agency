@@ -15,7 +15,7 @@ function Testimonials() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, ease: "linear" }}
-        className="lg:h-[60vh] lg:bg-right h-[40vh] flex bg-cover items-center bg-[url('/assets/testimonialsCover.jpg')] ">
+        className="lg:h-[60vh] lg:bg-right bg-center h-[40vh] flex bg-cover items-center bg-[url('/assets/testimonialsCover.jpg')] ">
         <motion.h1
           initial={{ x: "-100vw" }}
           animate={{ x: 0 }}
@@ -30,10 +30,10 @@ function Testimonials() {
             initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
             translate={{ duration: 1, delay: 1, ease: "linear" }}
-            className="flex items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
+            className="flex flex-col lg:flex-row items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
             <div className="flex flex-col items-center gap-2 justify-center">
               <img
-                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[7rem] object-cover rounded-full ring-1"
+                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[6rem] object-cover rounded-full ring-1"
                 src={cardiologist}
                 loading="lazy"
                 alt="cardiologist comment"
@@ -59,10 +59,10 @@ function Testimonials() {
             initial={{ x: "+200vw" }}
             animate={{ x: 0 }}
             translate={{ duration: 1, delay: 2, ease: "linear" }}
-            className="flex items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
+            className="flex flex-col lg:flex-row items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
             <div className="flex flex-col items-center gap-2 justify-center">
               <img
-                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[7rem] object-cover rounded-full ring-1"
+                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[6rem] object-cover rounded-full ring-1"
                 src={neurologist}
                 loading="lazy"
                 alt="neurologist comment"
@@ -84,10 +84,10 @@ function Testimonials() {
               </span>
             </div>
           </motion.div>
-          <div className="flex items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
+          <div className="flex flex-col lg:flex-row items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
             <div className="flex flex-col items-center gap-2 justify-center">
               <img
-                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[7rem] object-cover  rounded-full ring-1"
+                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[6rem] object-cover  rounded-full ring-1"
                 src={ophtalmologist}
                 loading="lazy"
                 alt="ophtalmologist comment"
@@ -109,10 +109,10 @@ function Testimonials() {
               </span>
             </div>
           </div>
-          <div className="flex items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
+          <div className="flex flex-col lg:flex-row items-center lg:w-[90%] mx-auto lg:gap-0 gap-6 justify-evenly lg:px-0 px-6 py-6 bg-white border-2 rounded-sm shadow p-0">
             <div className="flex flex-col items-center gap-2 justify-center">
               <img
-                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[7rem] object-cover rounded-full ring-1"
+                className="lg:w-[7rem] lg:h-[7rem] h-[6rem] w-[6rem] object-cover rounded-full ring-1"
                 src={nurse}
                 loading="lazy"
                 alt="nurse comment"
