@@ -11,9 +11,9 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <div>
+    <div className="w-full">
       <section
-        className="bg-cover flex flex-col bg-fixed items-start justify-center md:pl-40 pl-16 gap-2  bg-blend-overlay bg-black/30 bg-center  bg-no-repeat
+        className="bg-cover  flex flex-col bg-fixed items-start justify-center md:pl-40 pl-16 gap-2  bg-blend-overlay bg-black/30 bg-center  bg-no-repeat
        bg-[url('/assets/servicesCover.jpg')] h-[50vh] md:h-[60vh] w-full">
         <motion.h1
           initial={{ x: "+200vw" }}
@@ -36,7 +36,7 @@ function Services() {
 
       {/* LEARN GERMAN */}
       <section className="bg-gray-100 py-12 ">
-        <div className="flex flex-col md:gap-20 gap-12 shadow md:w-[75%] w-[90%] bg-white mx-auto items-center p-16">
+        <div className="flex flex-col  md:gap-20 gap-12 shadow md:w-[75%] w-[90%] bg-white mx-auto items-center p-6 lg:p-16">
           <section className="flex flex-col items-center md:gap-10 gap-8">
             <h1 className="md:text-4xl text-2xl text-center tracking-wider text-cyan-800 uppercase">
               Learn The German Language
@@ -105,13 +105,13 @@ function Services() {
       </section>
       {/* DIPLOMA */}
       <section className="bg-gray-100 py-12 ">
-        <div className="flex flex-col md:gap-16 gap-8 shadow w-[90%] md:w-[75%] bg-white mx-auto items-center p-12 md:p-16">
+        <div className="flex flex-col md:gap-16 gap-8 shadow w-[90%] md:w-[75%] bg-white mx-auto items-center p-8 md:p-16">
           <h1 className="md:text-4xl text-[1.6rem] tracking-wider text-cyan-800 uppercase">
             Your Diploma
           </h1>
           <div className="w-full grid relative md:gap-16 gap-12 place-items-center  lg:grid-cols-2">
             <div className=" flex flex-col gap-6  items-center">
-              <h1 className="text-cyan-800 bg-cyan-200  px-8 rounded-full tracking-wider font-semibold uppercase text-lg">
+              <h1 className="text-cyan-800 bg-cyan-200  px-8 rounded-full tracking-wider font-semibold uppercase text-md lg:text-lg">
                 Diploma Recognition
               </h1>
               <p className="text-gray-500 leading-loose md:text-[1rem] text-sm text-center ">
@@ -129,7 +129,7 @@ function Services() {
             </div>
             <div className="border-l-[1px] hidden lg:block  absolute top-0 right-[50%] border-gray-200 rounded-tl-full  h-[40.5rem] w-[1px]"></div>
             <div className=" flex flex-col  items-center gap-6">
-              <h1 className="text-rose-600 bg-rose-200 rounded-full px-8 tracking-wider font-semibold uppercase text-lg">
+              <h1 className="text-rose-600 bg-rose-200 rounded-full px-8 tracking-wider font-semibold uppercase lg:text-lg">
                 Diploma Legalization
               </h1>
               <p className="text-gray-500 leading-loose md:text-[1rem] text-sm  text-center">

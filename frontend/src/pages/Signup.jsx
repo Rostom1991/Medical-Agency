@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { motion } from "framer-motion";
 import { useDispatch } from "react-redux";
+import { login } from "../redux/userSlice";
 
 function Signup() {
   useEffect(() => {
@@ -70,7 +71,7 @@ function Signup() {
           </h1>
         </motion.div>
       </section>
-      <div className="grid gap-8 p-16 lg:mt-10 bg-white w-full shadow-xl place-items-center md:w-[55%]   mx-auto border-2 border-gray-100 rounded ">
+      <div className="grid gap-8 p-16 lg:my-10 bg-white w-full shadow-xl place-items-center md:w-[55%]   mx-auto border-2 border-gray-100 rounded ">
         <motion.h1
           initial={{ x: "+200vw" }}
           animate={{ x: 0 }}
@@ -138,12 +139,12 @@ function Signup() {
           <div className="flex justify-center gap-4">
             <button
               onClick={handleSubmit}
-              className="bg-purple-900 hover:shadow-lg hover:bg-purple-700 transition-colors duration-500 ease-linear rounded px-12 py-2 text-white">
+              className="bg-purple-900 hover:shadow-lg hover:bg-purple-700 transition-colors duration-500 ease-linear rounded text-sm lg:text-[1rem] px-6 lg:px-12 py-2 text-white">
               SIGN UP
             </button>
             <button
               onClick={goToLogin}
-              className="bg-white border-2 border-purple-950 hover:bg-black hover:text-white transition-colors duration-500 ease-linear rounded px-10 py-2 text-purple-950">
+              className="bg-white text-sm lg:text-[1rem] border-2 border-purple-950 hover:bg-black hover:text-white transition-colors duration-500 ease-linear rounded lg:px-10 px-6 py-2 text-purple-950">
               LOGIN
             </button>
           </div>

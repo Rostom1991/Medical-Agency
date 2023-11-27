@@ -35,7 +35,7 @@ function Navbar({ setOpenModal }) {
   return (
     <header
       onMouseLeave={() => setCollapseJobs(false)}
-      className="flex z-30  text-sm h-[5.3rem] items-center lg:justify-center  bg-white/95 p-3 md:p-[1.8rem] space-x-2 text-md sticky top-0 shadow-xl text-black font-normal tracking-wider">
+      className="flex z-30  text-sm  items-center lg:justify-center  bg-white/95 p-10 md:p-[1.4rem] space-x-2 text-md sticky top-0 shadow-xl text-black font-normal w-full tracking-wider">
       <div className="mt-1 absolute p-2 left-8 w-[8rem]  ">
         <Link to="/">
           <img className="object-cover" src={logo} alt="logo" />
@@ -213,7 +213,7 @@ function Navbar({ setOpenModal }) {
                   onMouseLeave={() => setCollapseJobs(false)}
                   className={`${
                     collapseJobs
-                      ? " h-max absolute z-50  left-0  border-[1.5px] border-gray-200 w-max rounded-sm bg-white shadow-xl  pt-4 pb-8 px-8 font-normal text-gray-700"
+                      ? " h-max absolute z-50  left-0 top-0 border-[1.5px] border-gray-200 w-max rounded-sm bg-white shadow-xl  pt-4 pb-8 px-8 font-normal text-gray-700"
                       : "hidden"
                   }`}>
                   <div className="w-max ">
@@ -251,7 +251,7 @@ function Navbar({ setOpenModal }) {
                     alt=""
                   />
                   <Link
-                    to="/join"
+                    to="/login"
                     className="uppercase hover:underline underline-offset-4 decoration-[2px]  decoration-blue-800 cursor-pointer">
                     Join
                   </Link>

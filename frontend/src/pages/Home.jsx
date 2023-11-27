@@ -8,17 +8,15 @@ import { useDispatch } from "react-redux";
 import { logout } from "../redux/userSlice";
 
 function Home() {
- 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div>
+    <div className="w-full">
       <Hero />
       <About />
       <Services />
       <Contact />
-      
     </div>
   );
 }

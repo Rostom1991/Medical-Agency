@@ -68,7 +68,7 @@ function Login() {
           </motion.h1>
         </div>
       </section>
-      <div className="grid gap-8 p-16 lg:mt-10 w-full bg-white shadow-xl place-content-center md:w-[55%] mx-auto mt-0 border-2 border-gray-100 rounded ">
+      <div className="grid gap-8 p-16 lg:my-10 w-full bg-white shadow-xl place-content-center md:w-[55%] mx-auto border-2 border-gray-100 rounded ">
         <motion.h1
           initial={{ x: "+200vw" }}
           animate={{ x: 0 }}
@@ -77,7 +77,7 @@ function Login() {
           Welcome To <span className="text-purple-800">Viridis</span>{" "}
           Recruitment Agency!
         </motion.h1>
-        <form className="py-4 flex flex-col gap-12">
+        <form className="py-4 my-4 flex flex-col gap-12">
           <div className="flex gap-3 items-center justify-start">
             <label className="uppercase text-sm text-cyan-800" htmlFor="email">
               Email:
@@ -116,12 +116,12 @@ function Login() {
           <div className="flex justify-center gap-4">
             <button
               onClick={handleSubmit}
-              className="bg-purple-900  hover:shadow-lg hover:bg-purple-700 transition-colors duration-500 ease-linear rounded px-12 py-2 text-white">
+              className="bg-purple-900 lg:text-[1rem] text-sm hover:shadow-lg hover:bg-purple-700 transition-colors duration-500 ease-linear rounded lg:px-12 px-10 py-2 text-white">
               LOGIN
             </button>
             <button
               onClick={goToSignUp}
-              className="bg-white border-2 border-purple-950 hover:bg-black hover:text-white transition-colors duration-500 ease-linear rounded px-10 py-2 text-purple-950">
+              className="bg-white border-2  border-purple-950 hover:bg-black hover:text-white transition-colors duration-500 ease-linear rounded text-sm lg:text-[1rem] px-8 lg:px-10 py-2 text-purple-950">
               SIGN UP
             </button>
           </div>

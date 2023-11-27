@@ -44,8 +44,8 @@ function Contact() {
   return (
     <div className="">
       <section
-        className="bg-cover flex flex-col items-start justify-center md:pl-40 pl-16 gap-2  bg-blend-overlay bg-black/30 md:bg-center bg-[-25rem]  bg-no-repeat
-       bg-[url('/assets/contactMedicalBG.jpg')] h-[50vh] md:h-[60vh] w-full">
+        className="bg-cover flex flex-col items-start justify-center md:pl-40 pl-16 gap-2  bg-blend-overlay bg-black/30 md:bg-center  bg-[-30rem]  bg-no-repeat
+       bg-[url('/assets/contactMedicalBG.jpg')] h-[40vh] md:h-[60vh] w-full">
         <motion.h1
           initial={{ x: "+100vw" }}
           animate={{ x: 0 }}
@@ -64,8 +64,8 @@ function Contact() {
           </h1>
         </motion.div>
       </section>
-      <section className="grid md:grid-cols-2 place-content-center lg:w-10/12 w-full m-auto py-12">
-        <div className="grid gap-8 pt-12 pb-8 px-16 bg-white  shadow-xl w-full mt-0 mx-auto border-2 border-gray-100 rounded ">
+      <section className="grid md:grid-cols-2 place-content-center lg:w-10/12 w-full  m-auto py-12">
+        <div className="grid gap-8 pt-12 pb-8 md:px-16 px-8 bg-white  shadow-xl w-full mt-0 mx-auto border-2 border-gray-100 rounded ">
           <motion.h1
             initial={{ y: "-200vh" }}
             animate={{ y: 0 }}
@@ -160,7 +160,7 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className="relative sm:w-11/12 mx-auto  flex flex-col border-2 rounded border-gray-100 shadow-xl justify-start items-center gap-10 sm:my-0  my-8 pt-12 ">
+        <div className="relative md:w-11/12 mx-auto w-full  flex flex-col border-2 rounded border-gray-100 shadow-xl justify-start items-center gap-10 sm:my-0  my-8 pt-12 ">
           <h1 className="text-xl  text-cyan-800 font-semibold uppercase underline underline-offset-8 decoration-slate-300 decoration-[1px]">
             Contact Information
           </h1>

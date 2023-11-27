@@ -17,8 +17,8 @@ function About() {
     navigate("/contact");
   };
   return (
-    <div className=" py-8 sm:pt-16 sm:py-0 grid place-content-center">
-      <div className="grid sm:grid-cols-2 px-20 gap-8">
+    <div className=" pt-8 w-full sm:pt-16 sm:py-0 grid place-content-center">
+      <div className="grid lg:grid-cols-2 lg:px-20 px-2 gap-8">
         <div className="flex flex-col gap-8 p-8">
           <div className="flex flex-col gap-2">
             <motion.h1
@@ -70,7 +70,7 @@ function About() {
             </motion.p>
           </div>
         </div>
-        <div className="p-0 md:p-2 z-[-1]  grid place-content-center relative">
+        <div className="p-2 md:p-2 z-[-1]  grid place-content-center relative">
           <img
             className="w-[20%] z-20 absolute md:top-36 opacity-60 md:left-48 left-28 top-8"
             src={plane}
@@ -81,13 +81,13 @@ function About() {
       </div>
       <section className="lg:px-20 px-8 my-32 ">
         <div className="grid md:grid-cols-3   lg:px-16 rounded md:gap-2 gap-8 py-4 ">
-          <div className="flex  items-center bg-cyan-100 relative  hover:shadow-2xl  p-6  justify-center gap-8">
-            <div className="bg-white p-3 w-[5rem] h-[4rem] rounded-full">
+          <div className="flex  items-center bg-cyan-100 relative  hover:shadow-2xl  p-6  justify-evenly gap-8">
+            <div className="bg-white p-3 w-[4rem] h-[4rem] rounded-full">
               <img className="w-full h-full" src={thumb} alt="find job" />
             </div>
             <div className="flex flex-col items-center">
               <h1 className="uppercase text-blue-950">Find Jobs</h1>
-              <span className="text-gray-700 text-sm">
+              <span className="text-gray-700 text-center text-sm">
                 Find the job you are looking for
               </span>
             </div>
@@ -95,13 +95,13 @@ function About() {
               <img src={next} alt="next" />
             </div>
           </div>
-          <div className="flex items-center bg-cyan-200   relative hover:shadow-2xl p-6   justify-center gap-8">
+          <div className="flex items-center bg-cyan-200   relative hover:shadow-2xl p-6   justify-evenly gap-8">
             <div className="bg-white p-3 w-[4rem] h-[4rem] rounded-full">
               <img className="w-full h-full" src={cv} alt="cv" />
             </div>
             <div className="flex flex-col items-center">
               <h1 className="uppercase text-blue-950">CV UPLOAD</h1>
-              <span className="text-gray-700 text-sm">
+              <span className="text-gray-700 text-center text-sm">
                 Fill the form and upload your CV
               </span>
             </div>
@@ -110,7 +110,7 @@ function About() {
             </div>
           </div>
 
-          <div className="flex items-center md:rounded-r-full bg-cyan-300   hover:shadow-2xl  p-6     justify-center gap-8">
+          <div className="flex items-center justify-evenly md:rounded-r-full bg-cyan-300   hover:shadow-2xl  p-6     gap-8">
             <div className="bg-white p-3 w-[4rem] h-[4rem] rounded-full">
               <img
                 className="w-full h-full"
@@ -120,14 +120,16 @@ function About() {
             </div>
             <div className="flex flex-col items-center">
               <h1 className="uppercase text-blue-950">Job Application</h1>
-              <span className="text-gray-700 text-sm">Apply for the job</span>
+              <span className="text-gray-700 text-sm text-center">
+                Apply for the job
+              </span>
             </div>
           </div>
         </div>
       </section>
-      <section className="min-w-full grid place-items-center gap-6  bg-cyan-700 p-12">
+      <section className="w-full grid place-items-center gap-6  bg-cyan-950 p-12">
         <h1 className="text-2xl text-white uppercase">Have A Question?</h1>
-        <span className="text-gray-100 text-md">
+        <span className="text-gray-100 lg:text-[1rem] text-sm text-center">
           We are here to help. Email us or call +44 534 643 2544
         </span>
         <button
