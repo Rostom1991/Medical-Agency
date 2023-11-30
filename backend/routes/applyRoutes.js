@@ -10,7 +10,7 @@ const router = require("express").Router();
 const requireAuth = require("../middlewares/authMiddleware");
 
 //Authorization Middleware
-router.use(requireAuth);
+// router.use(requireAuth);
 
 router.post("/", upload.single("resume"), apply);
 router.get("/:id", getApply);
