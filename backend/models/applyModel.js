@@ -5,7 +5,7 @@ const applySchema = new mongoose.Schema(
     name: { type: String, required: true },
     email: { type: String, required: true },
     phone: { type: String, required: true },
-    resume: { data: Buffer, contentType: String },
+    resume: { name: String, data: Buffer, contentType: String },
     job: { type: Object, required: true },
   },
   { timestamps: true }
